@@ -34,4 +34,20 @@ ec2 modules and security group modules with apache2 userdata
 
 <img width="1262" height="900" alt="Screenshot 2025-09-21 at 6 48 27 pm" src="https://github.com/user-attachments/assets/10a2bc4e-7762-4574-8ae3-e6164f298876" />
 
+# Task (3)
+
+### Let create a file sparately by using touch apache_userdata.sh
+
+<img width="1063" height="101" alt="Screenshot 2025-09-21 at 7 07 18 pm" src="https://github.com/user-attachments/assets/c9b614a8-29a0-4392-bb4c-b954335efcae" />
+
+### On this part you need to install apache2 and start the apache and enable the apache using the command below
+#!/bin/bash
+sudo apt update
+sudo apt install -y apache2
+sudo systemctl start apache2
+sudo systemctl enable apache2
+echo "<h1>Hello from Apache on EC2</h1>" | sudo tee /var/www/html/index.html
+
+<img width="1262" height="766" alt="Screenshot 2025-09-21 at 7 12 10 pm" src="https://github.com/user-attachments/assets/47fe35c0-092b-4829-93a3-e66d814286a7" />
+
 
