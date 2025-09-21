@@ -20,3 +20,18 @@ ec2 modules and security group modules with apache2 userdata
 
 ### Now create a security group.
 <img width="1210" height="533" alt="Screenshot 2025-09-21 at 6 10 22 pm" src="https://github.com/user-attachments/assets/2f0af4a1-f372-4f29-9cd6-216a52c20432" />
+
+# Task (2)
+
+### Now create a new directory on the project directory and name it modules/security_group use the come mkdir -p modules/security_group
+
+### cd into the cd security_group ls to check it and use touch command to create your main.tf
+
+<img width="998" height="280" alt="Screenshot 2025-09-21 at 6 40 27 pm" src="https://github.com/user-attachments/assets/ceb16b23-4cba-4877-a8ee-ffa704d575a4" />
+
+### open the main.tf file and write your terraform code inside the file "vim main.tf"
+
+
+<img width="1262" height="900" alt="Screenshot 2025-09-21 at 6 48 27 pm" src="https://github.com/user-attachments/assets/10a2bc4e-7762-4574-8ae3-e6164f298876" />
+
+
