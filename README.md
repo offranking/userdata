@@ -90,4 +90,46 @@ echo "<h1>Hello from Apache on EC2</h1>" | sudo tee /var/www/html/index.html
 
 <img width="1241" height="82" alt="Screenshot 2025-09-21 at 7 44 35 pm" src="https://github.com/user-attachments/assets/ed3171bf-817c-4684-b1fa-98cc006cb150" />
 
+### run "terraform init"
+
+<img width="868" height="354" alt="Screenshot 2025-09-23 at 4 03 06 pm" src="https://github.com/user-attachments/assets/33895795-ffc8-45d0-8e8e-d67fc484e351" />
+
+### follow by run "terraform validate"
+<img width="891" height="64" alt="Screenshot 2025-09-23 at 4 04 15 pm" src="https://github.com/user-attachments/assets/d49a387d-1f3e-44ae-bc6b-a4d5321bef7b" />
+
+follow by run "terraform plan"
+<img width="1434" height="645" alt="Screenshot 2025-09-23 at 4 04 53 pm" src="https://github.com/user-attachments/assets/50be2886-1a35-491b-b93a-2af99b12ecfe" />
+
+### you can now run "terraform destroy"
+
+<img width="1273" height="425" alt="Screenshot 2025-09-23 at 4 05 25 pm" src="https://github.com/user-attachments/assets/13285077-a31c-4161-b452-c451def5e9ed" />
+
+### run "terafform apply"
+
+
+
+<img width="1246" height="881" alt="Screenshot 2025-09-23 at 4 06 03 pm" src="https://github.com/user-attachments/assets/ebf28724-0f98-4f70-a1a8-3bb5f36965bd" />
+
+<img width="1440" height="401" alt="Screenshot 2025-09-23 at 4 06 36 pm" src="https://github.com/user-attachments/assets/b5cb5ed1-7967-4238-b3f2-734b3a373fb8" />
+
+### on the last part you now browse your Ip on the browser : http://18.208.219.249/
+http://18.208.219.249/
+<img width="1381" height="855" alt="Screenshot 2025-09-23 at 3 58 59 pm" src="https://github.com/user-attachments/assets/fd2bd4af-aa0a-4179-a5cf-850a1d48c5d3" />
+
+and again i face some error challenge which shows from the policy side
+
+# Error Report
+
+<img width="1440" height="416" alt="Screenshot 2025-09-23 at 4 12 59 pm" src="https://github.com/user-attachments/assets/3079aa35-b06b-4446-8f36-ce05c804cae2" />
+
+
+# Error Report
+<img width="1440" height="244" alt="Screenshot 2025-09-23 at 4 13 45 pm" src="https://github.com/user-attachments/assets/ab333203-e0c2-4822-a35d-bd69fc5a0441" />
+
+
+
+
+
+
+
 
